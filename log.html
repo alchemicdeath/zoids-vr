@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battle Registration</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="side.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+  <header>
+    <div class="zone1">
+    <h1><img src="Images/logo.png"></img>
+    VR Battle</h1>
+    </div>
+  </header>
+  <nav>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="zoids.html">Zoids</a>
+      <a href="modes.html">Modes</a>
+      <a href="shop.html">Shop</a>
+      <a href="registration.html">Register</a>
+      <a href="log.html">Log in</a>
+      <a href="contact.html">Contact</a>
+  </nav>  
+<main>
+  <div class="Bladeliger">
+    <div class="wrapper">
+
+<div class="login" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+  </form>
+</div>
+</main>
+<footer>
+  &copy; TOMY. All rights reserved. All content on this website (including logos, trademarks, text, images, graphics and audio) is the property of TOMY. and its affiliates, or is used under license or by permission from our licensors. It is protected by trademark rights, copyrights and other rights owned. Use of this website constitutes your acceptance of our Terms of Usage
+</footer>
+</body>
+</html>

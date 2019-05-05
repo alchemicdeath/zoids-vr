@@ -1,0 +1,242 @@
+                                                                                                          /* Header, Main, Footer*/
+header{ 
+	background-image: url("Images/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+main{
+ padding-left:100px;
+}
+footer{
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 25px;
+  font-size: 10px;
+  margin: 0;
+}
+                                                                                                                           /*Text*/
+h1{
+  font-family: impact;
+  color: #fff;
+  text-align: center;
+  font-size: 65px;
+  margin: 0;
+}
+h2{
+  text-decoration: underline;
+  font-size: 25px;
+}
+h3{
+  font-family: impact;
+  padding-left: 25px;
+}
+h4{
+  text-align: center;
+  font-family: impact;
+  font-size: 60px;
+}
+h5{
+  text-align: center;
+  font-family: impact;
+  font-size: 50px;
+  padding: 10px;
+}
+h6 p{
+  padding-left: 5px;
+  font-family: impact;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+}
+p{
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+li{
+  font-size: 15px;
+}
+
+                                                                                                                         /*Images*/
+.Bladeliger{
+    background-image: url("Images/bladeliger.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1600px;
+    margin: 0;
+    padding-top: 20px;
+}
+                                                                                                                     /*Navigation*/
+.topnav {
+  background-color: #333;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 100px; /* Set the width of the sidebar */
+  padding-top: 20px;
+  float: left;
+  overflow: auto;
+ position: fixed;
+ top: 0; 
+ box-shadow:inset 5px 4px 5px #000;
+}
+.topnav a {
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 5px
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  font-family: impact;
+}
+.topnav a:hover {
+  background-color: #090;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: #090;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+                                                                                                                      /*Wrappers*/
+.wrapper{
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+.wrapper2{
+  margin-right: right;
+  width: 30%;
+  padding-left: 20px;
+}
+.wrapper4{
+  margin: auto;
+  width: 80%;
+}
+.zoid{
+  padding: 10px;
+}
+.zoid a{
+  padding: 10px;
+}
+                                                                                                                         /*Inputs*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+  background-color: #009;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #090;
+}
+                                                                                                                        /*Buttons*/
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.btn:hover {
+  background-color: #45a049;
+}
+                                                                                                               /*Rows and Columns*/
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding-top: 10px;
+}                                                                                                                    /*containers*/
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+span.price {
+  float: right;
+  color: grey;
+  margin:0 auto;
+}
+.login button{
+  color: #000;
+}
+.text{
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  header{
+   padding-left: 80px;
+  }
+   .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 0px;
+}
+.Bladeliger{
+    background-image: url("Images/Bladeliger.jpg");
+    background-size: 100% 50%;
+    height: 1600px;
+    margin: 0;
+    padding-top: 20px;
+    background-repeat: repeat;
+}
